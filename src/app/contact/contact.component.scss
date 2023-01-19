@@ -1,0 +1,31 @@
+:host {
+  display: block;
+  margin: 1rem;
+}
+
+.form-field {
+  display: block;
+  margin-top: 1rem;
+
+  > span {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  > input {
+    padding: 12px 20px 12px 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    min-width: 250px;
+  }
+}
+
+.form-field-hint {
+  display: block;
+  color: #3c3c3c;
+}
+
+.form-actions {
+  margin-top: 1rem;
+}

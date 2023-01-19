@@ -1,27 +1,11 @@
 # TimeMatters
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+Who we are? Developers!
 
-## Development server
+What do we want? To load data in our Angular application!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+When do we want it? As soon as possible!
 
-## Code scaffolding
+Many of us are familiar with component lifecycle hooks such as onInit or afterViewInit. What are other hooks that Angular gives us to load our data or to execute some code? In my talk I'm going to investigate it and put it on a time scale - from bootstrapping function to APP_INITIALIZER and resolvers. We will learn what code is executed first and last, creating a time perspective of an Angular application.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project demonstrates the aspects that I cover in my talk.

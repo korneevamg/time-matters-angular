@@ -1,0 +1,23 @@
+<form [formGroup]="contactForm" (ngSubmit)="create()">
+  <label class="form-field">
+    <span>Email</span>
+    <input formControlName="email" />
+    <small
+      *ngIf="contactForm.get('email')?.dirty && contactForm.get('email')?.hasError('required')"
+      class="form-field-hint"
+      >Please insert an email.</small
+    >
+  </label>
+  <label class="form-field">
+    <span>Your message</span>
+    <input formControlName="message" />
+    <small
+      *ngIf="contactForm.get('message')?.dirty && contactForm.get('message')?.hasError('required')"
+      class="form-field-hint"
+      >Please insert a message.</small
+    >
+  </label>
+  <div class="form-actions">
+    <button type="submit" [disabled]="contactForm.invalid">Save</button>
+  </div>
+</form>
