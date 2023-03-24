@@ -27,7 +27,7 @@ log('AppModule - Compilation', 'file');
       multi: true,
       useFactory: () => {
         return (component: ComponentRef<any>) => {
-          log('APP_BOOTSTRAP_LISTENER ' + component.componentType.name, 'main');
+          log('APP_BOOTSTRAP_LISTENER ' + component.componentType.name, 'appBootstrap');
         };
       },
     },
